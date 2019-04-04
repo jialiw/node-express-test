@@ -19,7 +19,7 @@ module.exports = {
             email: {
                 allowNull: false,
                 type: Sequelize.STRING
-            }
+            },
         });
     },
     // down method for roll back migrations
